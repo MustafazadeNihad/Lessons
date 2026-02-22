@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+
+}
+.body {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.section-title{
+    margin: 10px;
+    background-color: antiquewhite;
+}
+.section-list{
+    background-color: wheat;
+}
+.section-list li{
+    line-height: 40px;
+}
+section{
+    width: 30%;
+}
+main{
+    width: 70%;
+}
+

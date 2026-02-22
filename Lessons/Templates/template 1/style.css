@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: rgba(34, 42, 45);
+}
+
+.wrap {
+    width: 980px;
+    margin: 0, auto;
+}
+
+nav {
+    background-color: rgba(52, 60, 63);
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 0;
+    color: rgba(159, 168, 175);
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+}
+
+aside {
+    width: 30%;
+}
+
+main {
+    width: 70%;
+}
+
+.title {
+    color: rgba(176, 192, 192);
+    font-size: 30px;
+    margin: 15px;
+}
+
+.menu {
+    display: flex;
+    border: 1px solid rgba(49, 57, 60);
+    border-right: 1px solid rgba(34, 42, 45);
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.menu li {
+    color: rgba(176, 192, 192);
+    margin: 10px;
+}
+
+.menu a {
+    color: rgba(176, 192, 192);
+}
+
+.block-content {
+    color: rgba(176, 192, 192);
+    border-left: 1px solid rgba(49, 57, 60);
+    border-bottom: 1px solid rgba(49, 57, 60);
+    padding: 15px;
+}
+.gl-content {
+    color: rgba(176, 192, 192);
+    border-top: 1px solid rgba(176, 192, 192);
+    padding: 15px;
+}
+.cols {
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+    color: rgba(176, 192, 192);
+}
+.first-col {
+    border-right: 1px solid rgba(49, 57, 60);
+}
+.col-text {
+    margin-bottom: 10px;
+}
+button {
+    background-color: rgba(151, 169, 172);
+    padding: 10px;
+    border: none;
+}
+footer {
+    color: rgba(176, 192, 192);
+    border-top: 1px solid rgba(49, 57, 60);
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+}
