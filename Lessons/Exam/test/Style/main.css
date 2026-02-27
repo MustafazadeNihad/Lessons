@@ -1,0 +1,67 @@
+main {
+    width: 80%;
+    background-color: rgb(17, 17, 17);
+    margin-left: 10%;
+    padding: 20px;
+}
+
+.elan {
+    font-size: 35px;
+    color: rgb(212, 175, 55);
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.car-card {
+    background-color: #1C1C1C;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.car-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.car-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-info {
+    padding: 20px;
+}
+
+.car-info h3 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: rgb(212, 175, 55);
+    font-weight: bold;
+    margin-bottom: 15px
+}
+
+button {
+    background-color: rgb(212, 175, 55);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+}

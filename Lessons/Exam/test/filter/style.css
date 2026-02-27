@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.filter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-panel {
+  width: 400px;
+  background-color: #1C1C1C;
+  padding: 40px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.filter-panel:hover {
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+.filter-panel h2 {
+  color: rgb(212, 175, 55);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.filter-panel label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.filter-panel select,
+.filter-panel input {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+}
+
+.filter-panel select:focus,
+.filter-panel input:focus {
+  border-color: rgb(212, 175, 55);
+  outline: none;
+}
+
+.price-range {
+  display: flex;
+  gap: 10px;
+}
+
+.apply-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: rgb(212, 175, 55);
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: white;
+}
+
+.reset-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: transparent;
+  border: 1px solid rgb(212, 175, 55);
+  color: rgb(212, 175, 55);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  background-color: rgb(212, 175, 55);
+  color: black;
+}
